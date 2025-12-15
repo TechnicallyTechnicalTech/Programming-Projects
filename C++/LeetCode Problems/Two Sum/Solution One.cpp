@@ -4,8 +4,7 @@ class Solution
 public:
     vector<int> twoSum(vector<int>& nums, int target) 
     {
-        //use two for loops
-        int sumcheck = 0;
+        //using two for loops to chek i and i+1 for target sum
          for(int i = 0; i <nums.size(); i++)
          {
             for(int j= i+ 1; j <nums.size(); j++)
